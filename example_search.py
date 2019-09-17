@@ -1,5 +1,13 @@
 from tester import test_config_equality
 
+"""
+Example of code for performing BFS on a state graph, including a class representing a state graph node.
+
+COMP3702 2019 Assignment 2 Support Code
+
+Last updated by njc 17/09/19
+"""
+
 
 class GraphNode:
     """
@@ -36,6 +44,10 @@ def solve(spec):
     An example solve method containing code to perform a breadth first search of the state graph and return a list of
     configs which form a path through the state graph between the initial and the goal. Note that this path will not
     satisfy the primitive step requirement - you will need to interpolate between the configs in the returned list.
+
+    If you wish to use this code, you may either copy this code into your own file or add your existing code to this
+    file.
+
     :param spec: ProblemSpec object
     :return: List of configs forming a path through the graph from initial to goal
     """

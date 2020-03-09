@@ -1,3 +1,18 @@
+# Assignment 2: Canadarm - Continuous Search
+
+##### Work by:
+1. Yuris Aryansyah Shalichin Cakranegara
+2. Alexander Bayusuto Wanengkirtyo
+Support code provided by Course Coordinator.
+
+##### Instructions to run
+In the directory, run directly from command prompt:
+`python3 solver.py inputFileName outputFileName`
+
+Example:
+`python3 sokoban.py testcases/3g1_m0.txt result.txt`
+
+
 # Assignment 2 Support Code
 
 This is the support code for COMP3702 2019 Assignment 2.
